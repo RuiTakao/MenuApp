@@ -1,3 +1,6 @@
+<?php
+require 'functions.php';
+?>
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -15,10 +18,10 @@
     <div class="container">
       <h2 class="category_title">メインメニュー</h2>
       <ul class="categories">
-        <a href="menu.html" class="category"><li class="category_list">ピザ</li></a>
-        <a href="menu.html" class="category"><li class="category_list">パスタ</li></a>
-        <a href="menu.html" class="category"><li class="category_list">一品料理</li></a>
-        <a href="menu.html" class="category"><li class="category_list">アルコール</li></a>
+        <a href="menu.php" class="category"><li class="category_list">ピザ</li></a>
+        <a href="menu.php" class="category"><li class="category_list">パスタ</li></a>
+        <a href="menu.php" class="category"><li class="category_list">一品料理</li></a>
+        <a href="menu.php" class="category"><li class="category_list">アルコール</li></a>
       </ul>
     </div>
   </main>

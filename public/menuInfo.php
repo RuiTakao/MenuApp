@@ -1,3 +1,6 @@
+<?php
+require 'functions.php';
+?>
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -17,7 +20,7 @@
       <p class="menu-info_price">800円</p>
       <p class="menu-info-text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
     </div>
-    <a href="menu.html" class="btn_back">戻る</a>
+    <a href="menu.php" class="btn_back">戻る</a>
   </main>
   <footer></footer>
 </body>
