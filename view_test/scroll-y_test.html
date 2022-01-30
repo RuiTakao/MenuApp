@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body{
+
+    }
+
+    .fixed{
+      width: 100%;
+      position: fixed;
+    }
+
+    header{
+      background: skyblue;
+      top: 0;
+      z-index: 100;
+    }
+
+    .head{
+      height: 100px;
+    }
+
+    main{
+      background: yellow;
+      max-width: 768px;
+      margin: 100px auto;
+      position: relative;
+    }
+
+    footer{
+      background: skyblue;
+      height: 100px;
+      bottom: 0;
+    }
+
+    .container{
+      max-width: 768px;
+      margin: 0 auto;
+    }
+
+    .main{
+      height: 100px;
+      background: red;
+      position: absolute;
+      width: 100%;
+      top: 0;
+    }
+
+    ul{
+
+    }
+
+    li{
+      margin-bottom: 10px;
+      height: 300px;
+      background: #eaeaea;
+    }
+  </style>
+  <title>Document</title>
+</head>
+
+<body>
+  <header class="fixed">
+    <div class="container head">
+      あ
+    </div>
+  </header>
+  <main>
+    <!-- <div class="main">う</div> -->
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+  </main>
+  <footer class="fixed">
+    <div class="container">
+      い
+    </div>
+  </footer>
+</body>
+</html>
