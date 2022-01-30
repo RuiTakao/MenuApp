@@ -1,5 +1,13 @@
 <?php require 'component/head.php'; ?>
 <?php require 'component/header.php'; ?>
+  <nav class="main_header_nav container">
+    <ul class="main_header_nav_lists">
+      <li class="main_header_nav_list">ピザ</li>
+      <li class="main_header_nav_list is-active">パスタ</li>
+      <li class="main_header_nav_list">串焼き</li>
+      <li class="main_header_nav_list">ごはんもの</li>
+    </ul>
+  </nav>
 </header>
   <main>
     <div class="container">

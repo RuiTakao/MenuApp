@@ -87,8 +87,8 @@ $menus = [
   ],
 ];
 
-foreach($menus as $menu){
-  if($menu['good']){
-    echo $menu['name'];
-  }
-}
+// foreach($menus as $menu){
+//   if($menu['good']){
+//     echo $menu['name'];
+//   }
+// }

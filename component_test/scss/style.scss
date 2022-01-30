@@ -15,6 +15,7 @@ main{
     padding: 0 $responsive-main-padding;
   }
 }
+
 .main_menu_lists{
 
 }
@@ -28,10 +29,14 @@ main{
     content:"";
     display: block;
     padding-top: 50%;
-    margin-top: 20px;
   }
 
   &:not(:first-child){
+    margin-top: 16px;
+  }
+
+  &:first-child{
+    margin-top: 8px;
   }
 }
 
@@ -46,10 +51,16 @@ main{
 }
 
 .menu_title{
+  text-shadow:0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23;
   padding: 10px;
+  font-weight: bold;
+  color: #fff;
 }
 
 .menu_price{
+  text-shadow:0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23;
+  font-weight: bold;
+  color: #fff;
   position: absolute;
   right: 0;
   bottom: 0;

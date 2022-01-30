@@ -11,11 +11,38 @@ header {
 
 .header-logo {
   margin: 0 auto;
-  font-size: 24px;
-  background: -webkit-gradient(linear, left top, right top, color-stop(25%, #E9CE8E), color-stop(75%, #F5CD45));
-  background: linear-gradient(to right, #E9CE8E 25%, #F5CD45 75%);
-  -webkit-background-clip: text;
-  color: transparent;
+  font-size: 22px;
+  color: #fff;
+}
+
+.main_header_nav {
+  background: #A71E23;
+  height: 30px;
+  line-height: 20px;
+  display: none;
+}
+
+.main_header_nav_lists {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main_header_nav_list {
+  font-weight: bold;
+  color: #fff;
+  font-size: 12px;
+}
+
+.header_nav_height {
+  margin-top: 84px;
+}
+
+.add_header_nav {
+  display: block;
 }
 
 footer {
@@ -45,7 +72,7 @@ footer {
 }
 
 main {
-  margin: 70px auto 70px;
+  margin: 54px auto 54px;
 }
 
 .container {
@@ -69,7 +96,14 @@ main {
   content: "";
   display: block;
   padding-top: 50%;
-  margin-top: 20px;
+}
+
+.main_menu_list_link:not(:first-child) {
+  margin-top: 16px;
+}
+
+.main_menu_list_link:first-child {
+  margin-top: 8px;
 }
 
 .main_menu_list {
@@ -83,10 +117,16 @@ main {
 }
 
 .menu_title {
+  text-shadow: 0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23;
   padding: 10px;
+  font-weight: bold;
+  color: #fff;
 }
 
 .menu_price {
+  text-shadow: 0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23;
+  font-weight: bold;
+  color: #fff;
   position: absolute;
   right: 0;
   bottom: 0;
