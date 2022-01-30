@@ -1,0 +1,25 @@
+footer{
+  width: 100%;
+  height: $footer;
+  background: $main-color;
+  line-height: $footer;
+  bottom: 0;
+  position: fixed;
+}
+
+.footer_nav{
+
+}
+
+.footer_nav_lists{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_nav_list{
+  display: block;
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+  font-size: $nav-size;
+}

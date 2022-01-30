@@ -1,0 +1,62 @@
+@import "config/variables";
+@import "mixin/mixin";
+@import "modules/header";
+@import "modules/footer";
+
+main{
+  margin: $header-margin auto $footer-margin;
+}
+
+.container{
+  max-width: $max-width;
+  margin: 0 auto ;
+
+  @media screen and (max-width: $max-width) {
+    padding: 0 $responsive-main-padding;
+  }
+}
+.main_menu_lists{
+
+}
+
+.main_menu_list_link{
+  position: relative;
+  width: 100%;
+  display: block;
+
+  &::before{
+    content:"";
+    display: block;
+    padding-top: 50%;
+    margin-top: 20px;
+  }
+
+  &:not(:first-child){
+  }
+}
+
+.main_menu_list{
+  background: #eaeaea;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.menu_title{
+  padding: 10px;
+}
+
+.menu_price{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 10px;
+}
+
+.current{
+  color: #000;
+  opacity: .8;
+}

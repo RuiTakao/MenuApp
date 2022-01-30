@@ -1,0 +1,17 @@
+header{
+  width: 100%;
+  height: $header;
+  background: $main-color;
+  line-height: $header;
+  text-align: center;
+  top: 0;
+  @include fixed;
+}
+
+.header-logo{
+  margin: 0 auto;
+  font-size: $logo;
+  background: $logo-color;
+  -webkit-background-clip: text;
+  color: transparent;
+}
