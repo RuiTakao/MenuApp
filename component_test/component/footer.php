@@ -2,14 +2,14 @@
   <footer>
     <nav class="footer_nav container">
       <ul class="footer_nav_lists">
-        <a href="#" class="footer_nav_list current">
-          <li>おすすめ</li>
+        <a href="#" class="footer_nav_list ">
+          <li>店舗情報</li>
         </a>
-        <a href="#" class="footer_nav_list">
-          <li>一品</li>
+        <a href="#" class="footer_nav_list current">
+          <li>オススメ</li>
         </a>
         <a href="#" class="footer_nav_list is-active">
-          <li>ごはんもの</li>
+          <li>フード</li>
         </a>
         <a href="#" class="footer_nav_list">
           <li>ドリンク</li>
