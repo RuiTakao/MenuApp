@@ -1,6 +1,8 @@
 <?php
 $skewer = "串焼き";
 $riceMenu = "ごはんもの";
+$singleMenu = "一品";
+$dessert = "デザート";
 
 $menus = [
   [
@@ -36,56 +38,56 @@ $menus = [
     "price" => 800,
     "img" => "ハヤシライス.jpg",
     "category" => $riceMenu,
-    "recommendation" => true,
+    "recommendation" => false,
   ],
   [
     "name" => "焼きおにぎり",
     "price" => 800,
     "img" => "焼きおにぎり.jpg",
     "category" => $riceMenu,
-    "recommendation" => true,
-  ],
-  [
-    "name" => "サラダ",
-    "price" => 800,
-    "img" => "ピザポケット2.jpg",
-    "category" => "rice",
-    "recommendation" => true,
-  ],
-  [
-    "name" => "チーズピザ",
-    "price" => 800,
-    "img" => "ピザポケット2.jpg",
-    "category" => "rice",
-    "recommendation" => true,
-  ],
-  [
-    "name" => "チーズピザ",
-    "price" => 800,
-    "img" => "ピザポケット2.jpg",
-    "category" => "rice",
-    "recommendation" => true,
-  ],
-  [
-    "name" => "チーズピザ",
-    "price" => 800,
-    "img" => "ピザポケット2.jpg",
-    "category" => "drink",
     "recommendation" => false,
   ],
   [
-    "name" => "チーズピザ",
+    "name" => "だし巻き卵",
     "price" => 800,
-    "img" => "ピザポケット2.jpg",
-    "category" => "drink",
+    "img" => "だし巻き卵.jpeg",
+    "category" => $singleMenu,
     "recommendation" => false,
   ],
   [
-    "name" => "チーズピザ",
+    "name" => "ポテト",
     "price" => 800,
-    "img" => "ピザポケット2.jpg",
-    "category" => "drink",
+    "img" => "ポテト.jpg",
+    "category" => $singleMenu,
+    "recommendation" => true,
+  ],
+  [
+    "name" => "揚げ出し豆腐",
+    "price" => 800,
+    "img" => "揚げ出し豆腐.jpg",
+    "category" => $singleMenu,
     "recommendation" => false,
+  ],
+  [
+    "name" => "アイス",
+    "price" => 800,
+    "img" => "アイス.jpg",
+    "category" => $dessert,
+    "recommendation" => false,
+  ],
+  [
+    "name" => "プリン",
+    "price" => 800,
+    "img" => "プリン.jpg",
+    "category" => $dessert,
+    "recommendation" => false,
+  ],
+  [
+    "name" => "チョコケーキ",
+    "price" => 800,
+    "img" => "チョコケーキ.jpg",
+    "category" => $dessert,
+    "recommendation" => true,
   ],
 ];
 
