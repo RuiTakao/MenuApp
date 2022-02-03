@@ -193,3 +193,12 @@ $softDrink = [
 //     echo $menu['name'];
 //   }
 // }
+
+function foodMenuList ($menus, $category)
+{
+  foreach($menus as $menu){
+    if($menu['category'] == $category){
+      require 'menu/food.php';
+    }
+  }
+}
