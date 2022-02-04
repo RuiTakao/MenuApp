@@ -1,3 +1,3 @@
 <ul>
-  <?php foodMenuList($drinks, $cocktail); ?>
+  <?php drinkMenuList($drinks, $cocktail); ?>
 </ul>
