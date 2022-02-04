@@ -1,12 +1,12 @@
 <ul class="food_menu_lists">
-  <?php foodMenuList($menus, $skewer); ?>
+  <?php foodMenuList($foods, $skewer); ?>
 </ul>
 <ul class="food_menu_lists">
-  <?php foodMenuList($menus, $riceMenu); ?>
+  <?php foodMenuList($foods, $riceMenu); ?>
 </ul>
 <ul class="food_menu_lists">
-  <?php foodMenuList($menus, $singleMenu); ?>
+  <?php foodMenuList($foods, $singleMenu); ?>
 </ul>
 <ul class="food_menu_lists">
-  <?php foodMenuList($menus, $dessert); ?>
+  <?php foodMenuList($foods, $dessert); ?>
 </ul>
