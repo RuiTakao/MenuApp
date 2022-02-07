@@ -18,12 +18,19 @@ header{
   background: $main-color;
   height: 30px;
   line-height: 20px;
-  display: none;
+  // display: none;
 }
 
-.main_header_nav_lists{
+.main_header_nav_lists_food{
   display: flex;
   justify-content: space-between;
+}
+
+.main_header_nav_lists_recommendation{
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  margin: 0 auto;
 }
 
 .main_header_nav_list{

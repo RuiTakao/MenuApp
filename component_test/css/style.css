@@ -19,16 +19,26 @@ header {
   background: #A71E23;
   height: 30px;
   line-height: 20px;
-  display: none;
 }
 
-.main_header_nav_lists {
+.main_header_nav_lists_food {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.main_header_nav_lists_recommendation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 200px;
+  margin: 0 auto;
 }
 
 .main_header_nav_list {
@@ -75,6 +85,7 @@ footer {
 
 main {
   margin: 54px auto 54px;
+  margin-top: 84px;
 }
 
 .container {

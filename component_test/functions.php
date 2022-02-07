@@ -20,12 +20,16 @@ function drinkMenuList ($menus, $category)
   }
 }
 
-function recommendationMenu ($foods, $drinks){
+function recommendationFoodMenu ($foods){
   foreach($foods as $menu){
     if($menu['recommendation']){
       require 'menu/food.php';
     }
   }
+}
+
+function recommendationDrinkMenu ($drinks)
+{
   foreach($drinks as $menu){
     if($menu['recommendation']){
       require 'menu/drink.php';

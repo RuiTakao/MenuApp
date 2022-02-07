@@ -5,6 +5,7 @@
 
 main{
   margin: $header-margin auto $footer-margin;
+  margin-top: $header-margin + 30px;
 }
 
 .container{
