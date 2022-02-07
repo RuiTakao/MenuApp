@@ -1,1 +1,0 @@
-<?php recommendationMenu($foods, $drinks); ?>

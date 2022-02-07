@@ -14,6 +14,19 @@
       <a href="#" class="main_header_nav_list">
         <li>デザート</li>
       </a>
+
+
+      <?php foreach($foodCategories as $category): ?>
+        <a href="#" class="main_header_nav_list">
+          <li><?= $category; ?></li>
+        </a>
+      <?php endforeach; ?>
+
+      <?php foreach($drinkCategories as $category): ?>
+        <a href="#" class="main_header_nav_list">
+          <li><?= $category; ?></li>
+        </a>
+      <?php endforeach; ?>
     </ul>
   </nav>
 </header>

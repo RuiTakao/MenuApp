@@ -2,7 +2,9 @@
 <?php require 'component/header.php'; ?>
 <main>
   <div class="container">
-  <?php recommendationMenu($foods, $drinks); ?>
+    <ul>
+    <?php drinkMenuList($drinks, $drinkCategories['cocktail']); ?>
+    </ul>
   </div>
 </main>
 <?php require 'component/footer.php'; ?>

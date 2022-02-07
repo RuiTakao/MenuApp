@@ -1,94 +1,97 @@
 <?php
 
-// フードメニュー
-$skewer = "串焼き";
-$riceMenu = "ごはんもの";
-$singleMenu = "一品";
-$dessert = "デザート";
+// フードカテゴリー
+$foodCategories = [
+  'skewer' => '串焼き',
+  'riceMenu' => 'ごはんもの',
+  'singleMenu' => '一品',
+  'dessert' => 'デザート',
+];
 
+// フードメニュー
 $foods = [
   [
     "name" => "もも串",
     "price" => 800,
     "img" => "もも串.jpg",
-    "category" => $skewer,
+    "category" => $foodCategories['skewer'],
     "recommendation" => false,
   ],
   [
     "name" => "つくね",
     "price" => 800,
     "img" => "つくね.jpg",
-    "category" => $skewer,
+    "category" => $foodCategories['skewer'],
     "recommendation" => true,
   ],
   [
     "name" => "ねぎま",
     "price" => 800,
     "img" => "ねぎま.jpg",
-    "category" => $skewer,
+    "category" => $foodCategories['skewer'],
     "recommendation" => false,
   ],
   [
     "name" => "オムライス",
     "price" => 800,
     "img" => "オムライス.jpg",
-    "category" => $riceMenu,
+    "category" => $foodCategories['riceMenu'],
     "recommendation" => true,
   ],
   [
     "name" => "ハヤシライス",
     "price" => 800,
     "img" => "ハヤシライス.jpg",
-    "category" => $riceMenu,
+    "category" => $foodCategories['riceMenu'],
     "recommendation" => false,
   ],
   [
     "name" => "焼きおにぎり",
     "price" => 800,
     "img" => "焼きおにぎり.jpg",
-    "category" => $riceMenu,
+    "category" => $foodCategories['riceMenu'],
     "recommendation" => false,
   ],
   [
     "name" => "だし巻き卵",
     "price" => 800,
     "img" => "だし巻き卵.jpeg",
-    "category" => $singleMenu,
+    "category" => $foodCategories['singleMenu'],
     "recommendation" => false,
   ],
   [
     "name" => "ポテト",
     "price" => 800,
     "img" => "ポテト.jpg",
-    "category" => $singleMenu,
+    "category" => $foodCategories['singleMenu'],
     "recommendation" => true,
   ],
   [
     "name" => "揚げ出し豆腐",
     "price" => 800,
     "img" => "揚げ出し豆腐.jpg",
-    "category" => $singleMenu,
+    "category" => $foodCategories['singleMenu'],
     "recommendation" => false,
   ],
   [
     "name" => "アイス",
     "price" => 800,
     "img" => "アイス.jpg",
-    "category" => $dessert,
+    "category" => $foodCategories['dessert'],
     "recommendation" => false,
   ],
   [
     "name" => "プリン",
     "price" => 800,
     "img" => "プリン.jpg",
-    "category" => $dessert,
+    "category" => $foodCategories['dessert'],
     "recommendation" => false,
   ],
   [
     "name" => "チョコケーキ",
     "price" => 800,
     "img" => "チョコケーキ.jpg",
-    "category" => $dessert,
+    "category" => $foodCategories['dessert'],
     "recommendation" => true,
   ],
 ];

@@ -21,13 +21,11 @@ function drinkMenuList ($menus, $category)
 }
 
 function recommendationMenu ($foods, $drinks){
-
   foreach($foods as $menu){
     if($menu['recommendation']){
       require 'menu/food.php';
     }
   }
-
   foreach($drinks as $menu){
     if($menu['recommendation']){
       require 'menu/drink.php';

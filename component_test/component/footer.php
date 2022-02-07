@@ -2,16 +2,16 @@
   <footer>
     <nav class="footer_nav container">
       <ul class="footer_nav_lists">
-        <a href="#" class="footer_nav_list ">
+        <a href="shop_information.php" class="footer_nav_list ">
           <li>店舗情報</li>
         </a>
-        <a href="#" class="footer_nav_list current">
+        <a href="index.php" class="footer_nav_list current">
           <li>オススメ</li>
         </a>
-        <a href="#" class="footer_nav_list is-active">
+        <a href="food.php" class="footer_nav_list is-active">
           <li>フード</li>
         </a>
-        <a href="#" class="footer_nav_list">
+        <a href="drink.php" class="footer_nav_list">
           <li>ドリンク</li>
         </a>
       </ul>
