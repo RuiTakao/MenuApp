@@ -36,3 +36,10 @@
 ### 3. 2.のデータをジャンル毎に分ける。
 
 1. データベースの構造を理解する。
+
+## ページについて
+
+* shop_information.php お店情報
+* index.php おすすめページ(cssやjsはrecommendationと表記する)
+* food.php フードページ
+* drink.php ドリンクページ
