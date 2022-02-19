@@ -1,0 +1,76 @@
+
+
+@import "config/variables";
+@import "mixin/mixin";
+@import "modules/header";
+@import "modules/footer";
+
+main{
+  margin: $header-margin auto $footer-margin;
+  margin-top: $header-margin + 30px;
+}
+
+.container{
+  max-width: $max-width;
+  margin: 0 auto ;
+
+  @media screen and (max-width: $max-width) {
+    padding: 0 $responsive-main-padding;
+  }
+}
+
+.main_menu_lists{
+
+}
+
+.main_menu_list_link{
+  position: relative;
+  width: 100%;
+  display: block;
+
+  &::before{
+    content:"";
+    display: block;
+    padding-top: 50%;
+  }
+
+  &:not(:first-child){
+    margin-top: 16px;
+  }
+
+  &:first-child{
+    margin-top: 8px;
+  }
+}
+
+.main_menu_list{
+  background: #eaeaea;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.menu_title{
+  text-shadow:0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23;
+  padding: 10px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.menu_price{
+  text-shadow:0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23,0 0 3px #A71E23;
+  font-weight: bold;
+  color: #fff;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 10px;
+}
+
+.current{
+  color: #000;
+  opacity: .8;
+}
